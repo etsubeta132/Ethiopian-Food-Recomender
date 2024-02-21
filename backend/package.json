@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --inspect=0.0.0.0:9229 app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@npmcli/fs": "^3.1.0",
+    "@tensorflow/tfjs-node": "^4.15.0",
+    "body-parser": "^1.20.2",
+    "child_process": "^1.0.2",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "g": "^2.0.1",
+    "helmet": "^7.1.0",
+    "moment": "^2.30.1",
+    "nodemon": "^3.0.2",
+    "path": "^0.12.7",
+    "python-shell": "^5.0.0",
+    "sqlite3": "^5.1.7",
+    "winston": "^3.11.0"
+  }
+}
